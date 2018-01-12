@@ -1,6 +1,6 @@
 # Gulp-Sass-JS-BrowserSync-Boilerplate
 
-Grunt Starter Boilerplate is a default template for getting started with [Grunt.JS](http://www.gruntjs.com), using a common basic setup consisting of:
+Gulp Sass JS Browsersync Boilerplate is a default template for getting started with [gulp.JS](http://www.gulpjs.com), using a common basic setup consisting of:
 
 * Sass processing
 * CSS Browser auto-prefixing 
@@ -18,7 +18,7 @@ The idea is to make a gulp project that encompasses a common workflow, ready to 
 
 # Beginner's guide
 
-Gulp.js is powerful but can be a bit confusing as there are plenty of libraries to pick from and chaining these behaviors together can be difficult.   Grunt requires Node.js. If you do not have Node.js installed already, go to [Nodejs.org](https://nodejs.org/) for more information.
+Gulp.js is powerful but can be a bit confusing as there are plenty of libraries to pick from and chaining these behaviors together can be difficult.   Gulp requires Node.js. If you do not have Node.js installed already, go to [Nodejs.org](https://nodejs.org/) for more information.
 
 If you are unsure if Node.js has been installed, in your terminal, run: node -v (windows users require the Node.js terminal so this is moot).
 
@@ -33,7 +33,7 @@ If your localhost has been configured properly, you should see the Hello World t
 
 On launch BrowserSync does some awesome stuff out of the box, allowing you to access your project from other devices on the same network, such as tablets/phones or VMs on your computer.
 
- To stop your project, hit command-period  (OS X) on your terminal window. Anytime you hit save on a Scss file or JS file; grunt will recompile your changes. 
+ To stop your project, hit command-period  (OS X) on your terminal window. Anytime you hit save on a Scss file or JS file; gulp will recompile your changes. 
 
 
 
