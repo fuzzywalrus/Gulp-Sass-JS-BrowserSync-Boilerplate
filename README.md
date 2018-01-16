@@ -5,8 +5,10 @@ Gulp Sass JS Browsersync Boilerplate is a default template for getting started w
 * Sass processing
 * CSS Browser auto-prefixing 
 * CSS minification
+* CSS Sourcemaps
 * JS Uglify (minification) 
 * BrowserSync (Inject CSS changes + follow, reload on JS change)
+* Sass Style guides using [Node-KSS](https://github.com/kss-node/kss-node)
 
 The programmed watch files are for: JS directories, Scss Directory, HTML files.  
 
@@ -35,5 +37,8 @@ On launch BrowserSync does some awesome stuff out of the box, allowing you to ac
 
  To stop your project, hit command-period  (OS X) on your terminal window. Anytime you hit save on a Scss file or JS file; gulp will recompile your changes. 
 
+# Styleguides!
 
+CSSTricks wrote a great article called, [Build a Style Guide Straight from Sass](https://css-tricks.com/build-style-guide-straight-sass/). I highly recommend reading it! I've included a gulp task, gulp styleguides, ready to generate KSS style guides. 
 
+KSS uses Sass comments to generate style guides automagically in a very platform agnostic way. You can configure KSS in the kss-config.json
